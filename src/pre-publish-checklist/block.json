@@ -1,0 +1,8 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gutenberg-customizations/pre-publish-checklist",
+	"title": "Pre publish checklist",
+	"textdomain": "gutenberg-customizations",
+	"editorScript": "file:./index.js"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "gutenberg-customizations",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "lint:css": "wp-scripts lint-style",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit",
+    "zip": "wp-scripts zip"
+  },
+  "author": "omar serrano",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.9.0"
+  }
+}
