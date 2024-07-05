@@ -19,8 +19,6 @@ registerBlockType(metadata.name, {
 
         return (
             <>
-                {/* sidebar here with one option */}
-
                 <InspectorControls>
                     <PanelBody title="User Role">
                         {currentUserRole?.includes('administrator') && (

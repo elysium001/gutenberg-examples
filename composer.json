@@ -1,0 +1,27 @@
+{
+  "name": "elysium001/gutenberg-customizations",
+  "description": "A collection of sample code that includes gutenberg blocks, build configurations, and composer setup",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Omar Serrano",
+      "email": "omar.serrano@automattic.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "automattic/vipwpcs": "^3",
+    "phpcompatibility/phpcompatibility-wp": "^2"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "lint": "phpcs",
+    "lint:fix": "phpcbf"
+  }
+}

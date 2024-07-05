@@ -5,6 +5,7 @@
     "start": "wp-scripts start",
     "build": "wp-scripts build",
     "format:js": "wp-scripts format-js",
+    "format:css": "wp-scripts format-style",
     "lint:js": "wp-scripts lint-js",
     "lint:css": "wp-scripts lint-style",
     "test:e2e": "wp-scripts test-e2e",
