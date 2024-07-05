@@ -22,9 +22,6 @@ const PluginPrePublishPanelTest = () => {
     });
 
     useEffect( () => {
-        console.log( 'isPublishSidebarOpened', isPublishSidebarOpened );
-        console.log( 'postStatus', postStatus );
-        console.log( 'contentLength', contentLength );
         if ( isPublishSidebarOpened && postStatus !== 'publish' && contentLength < 400 ) {
             lockPostSaving( 'prePublishChecklist' );
         } else {

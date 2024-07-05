@@ -20,7 +20,8 @@ define( 'GUTENBERG_CUSTOMIZATIONS_VERSION', '1.0' );
 define( 'GUTENBERG_CUSTOMIZATIONS_URL', plugin_dir_url( __FILE__ ) );
 define( 'GUTENBERG_CUSTOMIZATIONS_PATH', plugin_dir_path( __FILE__ ) );
 
-// load plugin files.
+// require hooks and functions.
+require_once GUTENBERG_CUSTOMIZATIONS_PATH . 'inc/gutenberg-customizations-functions.php';
 require_once GUTENBERG_CUSTOMIZATIONS_PATH . 'inc/gutenberg-customizations-hooks.php';
 
 

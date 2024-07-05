@@ -1,0 +1,8 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gutenberg-customizations/user-permission-based-block",
+	"title": "User Permission Based Block",
+	"textdomain": "gutenberg-customizations",
+	"editorScript": "file:./index.js"
+}

@@ -51,9 +51,6 @@ const PluginPrePublishPanelTest = () => {
     };
   });
   (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_4__.useEffect)(() => {
-    console.log('isPublishSidebarOpened', isPublishSidebarOpened);
-    console.log('postStatus', postStatus);
-    console.log('contentLength', contentLength);
     if (isPublishSidebarOpened && postStatus !== 'publish' && contentLength < 400) {
       lockPostSaving('prePublishChecklist');
     } else {
