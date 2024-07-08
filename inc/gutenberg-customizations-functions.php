@@ -13,8 +13,7 @@ namespace Gutenberg_Customizations\Functions;
  *
  * @return string
  */
-function get_current_date(): string {
-	return date( 'Y-m-d' );}
+function get_current_date():string {return date( 'Y-m-d' );}
 
 /**
  * Get the current time
