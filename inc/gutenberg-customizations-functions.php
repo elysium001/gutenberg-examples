@@ -21,6 +21,5 @@ function get_current_date(): string {
  *
  * @return string
  */
-function get_current_time(): string {
-	return gmdate( 'H:i:s' );
-}
+function get_current_time():string {
+	return gmdate( 'H:i:s' );}
