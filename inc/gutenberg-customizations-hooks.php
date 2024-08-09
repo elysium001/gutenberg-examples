@@ -17,6 +17,8 @@ function minimal_register_block() {
 	\register_block_type( GUTENBERG_CUSTOMIZATIONS_PATH . 'build/test-block/' );
 	\register_block_type( GUTENBERG_CUSTOMIZATIONS_PATH . 'build/user-permission-based-block/' );
 	\register_block_type( GUTENBERG_CUSTOMIZATIONS_PATH . 'build/pre-publish-checklist/' );
+	\register_block_type( GUTENBERG_CUSTOMIZATIONS_PATH . 'build/custom-richtext-block/' ); // register before block-w-innerblocks
+	\register_block_type( GUTENBERG_CUSTOMIZATIONS_PATH . 'build/block-w-innerblocks/' );
 }
 \add_action( 'init', __NAMESPACE__ . '\minimal_register_block' );
 
@@ -40,3 +42,5 @@ function add_user_roles_to_rest_response( $response, $user, $request ) {
 	return $response;
 }
 \add_filter( 'rest_prepare_user', __NAMESPACE__ . '\add_user_roles_to_rest_response', 10, 3 );
+
+

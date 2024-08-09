@@ -1,0 +1,8 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenberg-customizations/custom-richtext-block",
+  "title": "Custom RichText Block",
+  "textdomain": "gutenberg-customizations",
+  "editorScript": "file:./index.js"
+}

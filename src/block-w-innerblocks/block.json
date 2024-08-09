@@ -1,0 +1,9 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"name": "gutenberg-customizations/block-w-innerblocks",
+	"title": "Block with InnerBlocks Example",
+	"textdomain": "gutenberg-customizations",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"render": "file:./render.php"
+}

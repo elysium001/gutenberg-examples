@@ -1,0 +1,1 @@
+{"version":3,"file":"block-w-innerblocks/index.css","mappings":";;;AAAA;IACI,aAAa;IACb,4CAA4C;IAC5C,kBAAkB;AACtB,C","sources":["webpack://gutenberg-customizations/./src/block-w-innerblocks/index.css"],"sourcesContent":[".custom-block-w-innerblocks {\n    padding: 20px;\n    border: 1px solid rgb(0, 104, 33) !important;\n    border-radius: 5px;\n}"],"names":[],"sourceRoot":""}

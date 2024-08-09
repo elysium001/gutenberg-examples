@@ -1,0 +1,10 @@
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/block-w-innerblocks/index.css ***!
+  \***************************************************************************************************************************************************************************************/
+.custom-block-w-innerblocks {
+    padding: 20px;
+    border: 1px solid rgb(0, 104, 33) !important;
+    border-radius: 5px;
+}
+
+/*# sourceMappingURL=index.css.map*/
